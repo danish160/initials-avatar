@@ -12,3 +12,27 @@
     top: calc(40px / 4);
     color: white;
 }
+
+/* 
+
+Original SCSS
+
+$avatar-size: 40px;
+
+.circle {
+    background-color: green;
+    border-radius: 50%;
+    height: #{$avatar-size};
+    text-align: center;
+    width: #{$avatar-size};
+}
+
+.initials {
+    font-size: calc(#{$avatar-size} / 2); // 50% of parent 
+    line-height: 1;
+    position: relative;
+    top: calc(#{$avatar-size} / 4); // 25% of parent 
+    color: white;
+}
+
+ */
